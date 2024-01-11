@@ -12,7 +12,6 @@ This project is a solution to the [QR code component challenge on Frontend Mento
   - [What I Learned](#what-i-learned)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 This project serves as a beginner-level solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Specifically designed for front-end developers, this challenge aims to provide a hands-on experience in creating a QR code component.
