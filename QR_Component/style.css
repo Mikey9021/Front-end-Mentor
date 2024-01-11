@@ -1,3 +1,4 @@
+/* Set the body style */
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     font-size: 15px;
   }
   
+  /* Style the QR code container */
   #qr-code-container {
     width: fit-content;
     display: flex;
@@ -22,6 +24,7 @@ body {
     max-width: 500px;
   }
   
+  /* Style the QR code */
   #qr-code {
     width: 150px;
     height: 150px;
@@ -29,21 +32,24 @@ body {
     margin: 0 auto;
   }
   
+  /* Style the QR code text container */
   #qr-code-text{
     text-align: center;
   }
 
+  /* Style the QR code text h1 element */
   #qr-code-text h1 {
     font-weight: 700px;
     font-size: 15px;
   }
   
-  
+/* Style the QR code text p element */
   #qr-code-text p {
     font-weight: 400px;
     font-size: 10px;
   }
   
+  /* Style the QR component container */
   .qr-component {
     max-width: 200px;
     display: flex;
