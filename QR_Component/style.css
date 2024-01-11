@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: hsl(224, 66%, 77%);      
+    background: linear-gradient(to bottom, rgb(61, 105, 228), hsla(224, 67%, 18%, 0.5));
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
   }
@@ -16,7 +16,7 @@ body {
     width: fit-content;
     display: flex;
     flex-direction: column;
-    background-color: #d6e2f0;
+    background-color: #3890f5;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,8 +26,8 @@ body {
   
   /* Style the QR code */
   #qr-code {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     display: flex;
     margin: 0 auto;
   }
@@ -55,7 +55,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 10px;
+    padding-left:5px ;
+    padding-right: 5px;
+    padding-bottom: 12.5px;
+    padding-top: 12.5px;
     justify-content: center;
     background-color: rgb(253, 253, 253);
     border-radius: 10px;
