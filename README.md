@@ -10,7 +10,6 @@ This project is a solution to the [QR code component challenge on Frontend Mento
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -26,11 +25,19 @@ This project serves as a beginner-level solution to the [QR code component chall
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:[Vercel Live Site](https://front-end-mentor-j1tg.vercel.app/)
 
 ## My Process
-
+- Create a Repository
+- Planned out the project
+- Created Project Files
+- Structured the page
+- Added styling
+- Encoded the QR-code
+- Replaced place holder image
+- Push to github
+- Enable github pages
+- Hosted site on Vercel
 ### Built With
 
 - HTML5 
