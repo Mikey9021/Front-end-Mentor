@@ -5,19 +5,52 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
-}
-
-#qr-code-container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: hsl(224, 66%, 77%);      
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+  }
+  
+  #qr-code-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #d6e2f0;
+    padding: 25px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#qr-code {
-    width: 200px; /* Adjust based on design */
-    height: 200px; /* Adjust based on design */
-    display: block;
     margin: 0 auto;
-}
+    max-width: 500px;
+  }
+  
+  #qr-code {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  #qr-code-text{
+    text-align: center;
+  }
+
+  #qr-code-text h1 {
+    font-weight: 700px;
+    font-size: 15px;
+  }
+  
+  
+  #qr-code-text p {
+    font-weight: 400px;
+    font-size: 10px;
+  }
+  
+  .qr-component {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+  }
